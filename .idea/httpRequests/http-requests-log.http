@@ -1,33 +1,11 @@
-GET http://localhost:8080/cars/3
+GET http://localhost:8080/cars/year/2013
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T104921.200.json
-
-###
-
-GET http://localhost:8080/cars/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-< C:/Users/randy/Programming/Java/java-cars/cars.json
-
-<> 2019-02-15T104917.200.json
-
-###
-
-POST http://localhost:8080/cars/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-< C:/Users/randy/Programming/Java/java-cars/cars.json
-
-<> 2019-02-15T104912.200.json
+<> 2019-02-15T120418.200.json
 
 ###
 
@@ -38,368 +16,533 @@ Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T104905.200.json
+<> 2019-02-15T120412.200.json
 
 ###
 
-GET http://localhost:8080/cars/3
+POST http://localhost:8080/cars
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T104902.500.json
+<> 2019-02-15T120408.200.json
 
 ###
 
-GET http://localhost:8080/cars/3
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T104858.500.json
+<> 2019-02-15T120401-1.404.json
 
 ###
 
-GET http://localhost:8080/cars/3
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T104854.500.json
+<> 2019-02-15T120401.404.json
 
 ###
 
-POST http://localhost:8080/cars/3
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T104849.405.json
+<> 2019-02-15T120400-1.404.json
 
 ###
 
-POST http://localhost:8080/cars/3
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T104808.404.json
+<> 2019-02-15T120400.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T103553.200.json
+<> 2019-02-15T120359-1.404.json
 
 ###
 
-GET http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T103549.200.json
+<> 2019-02-15T120359.404.json
 
 ###
 
-GET http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T103419.200.json
+<> 2019-02-15T120358-1.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T103410.200.json
+<> 2019-02-15T120358.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T103333.404.json
+<> 2019-02-15T120357-1.404.json
 
 ###
 
-GET http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T103302.404.json
+<> 2019-02-15T120357.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T103259.404.json
+<> 2019-02-15T120356.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T103258.404.json
+<> 2019-02-15T120354.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T103256.404.json
+<> 2019-02-15T120350.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T103212.404.json
-
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 < C:/Users/randy/Programming/Java/java-cars/cars.json
 
-<> 2019-02-15T103209.404.json
+<> 2019-02-15T115639-1.404.json
 
 ###
 
-GET http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
-
-<> 2019-02-15T103006.404.json
+<> 2019-02-15T115639.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
+<> 2019-02-15T115607.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
-
-<> 2019-02-15T103002.404.json
+<> 2019-02-15T115606.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
-
-<> 2019-02-15T102958.404.json
+<> 2019-02-15T115605.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
+<> 2019-02-15T115601.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
-
-<> 2019-02-15T102945.404.json
+<> 2019-02-15T115559-1.404.json
 
 ###
 
-GET http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
-
-<> 2019-02-15T102941.404.json
+<> 2019-02-15T115559.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
+<> 2019-02-15T115558.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
-
-<> 2019-02-15T102937.404.json
+<> 2019-02-15T115557-2.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
+<> 2019-02-15T115557-1.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
-
-<> 2019-02-15T102934.404.json
+<> 2019-02-15T115557.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
-
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
-
-<> 2019-02-15T100712.404.json
+<> 2019-02-15T115556-1.404.json
 
 ###
 
-POST http://localhost:8080/cars/
+POST http://localhost:8080/car
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
---null
+< C:/Users/randy/Programming/Java/java-cars/cars.json
 
+<> 2019-02-15T115556.404.json
 
-< C:\Users\randy\Programming\Java\java-cars\cars.json
---null--
+###
+
+POST http://localhost:8080/car
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115555.404.json
+
+###
+
+POST http://localhost:8080/car
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115553.404.json
+
+###
+
+GET http://localhost:8080/car
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115549.404.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115443.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115442-2.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115442-1.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115442.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115441-3.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115441-2.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115441-1.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115441.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115440-2.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115440-1.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115440.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115439.500.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115436.500.json
+
+###
+
+GET http://localhost:8080/cars
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115425.200.json
+
+###
+
+POST http://localhost:8080/cars
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T115420.200.json
+
+###
+
+GET http://localhost:8080/cars/year/2013
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+< C:/Users/randy/Programming/Java/java-cars/cars.json
+
+<> 2019-02-15T114907.500.json
 
 ###
 

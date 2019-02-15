@@ -2,11 +2,11 @@ package com.cars.restcars;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.data.domain.Sort;
+
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.stream.*;
+import java.util.*;
 
 @Slf4j
 @RestController
@@ -30,15 +30,17 @@ public class CarController {
     }
 
     @GetMapping("/cars/year/{year}")
-    public ArrayList<Car> findYear(@PathVariable int year) {
-        List<Car> carsByYear = carrepos.findAll();
-        for (Car c : carsByYear) {
-            if(c.getYear() == year) {
-                carrepos.save(c);
-            }
-        }
-        return carrepos;
+    public List<Car> findYear(@PathVariable int year) {
+       return carrepos.findAll().stream().filter(c -> c.getYear() == year).collect(Collectors.toList());
     }
+
+    @GetMapping("/cars/brand/{brand}")
+    public List<Car> findBrand(@PathVariable String brand) {
+        CarLog message = new CarLog(" search for " + brand);
+        rt.convertAndSend(RestcarsApplication.MESSAGE_QUEUE, message.toString());
+        return carrepos.findAll().stream().filter(c -> c.getBrand() == brand).collect(Collectors.toList());
+    }
+
 
     @PostMapping("/cars")
     public List<Car> newCar(@RequestBody List<Car> newCars) {
