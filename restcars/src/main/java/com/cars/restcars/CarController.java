@@ -2,11 +2,10 @@ package com.cars.restcars;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.data.domain.Sort;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j
@@ -23,6 +22,22 @@ public class CarController {
     @GetMapping("/cars")
     public List<Car> all() {
         return carrepos.findAll();
+    }
+
+    @GetMapping("/cars/{id}")
+    public Car findOne(@PathVariable Long id) {
+        return carrepos.findById(id).orElseThrow(() -> new CarNotFoundException(id));
+    }
+
+    @GetMapping("/cars/year/{year}")
+    public ArrayList<Car> findYear(@PathVariable int year) {
+        List<Car> carsByYear = carrepos.findAll();
+        for (Car c : carsByYear) {
+            if(c.getYear() == year) {
+                carrepos.save(c);
+            }
+        }
+        return carrepos;
     }
 
     @PostMapping("/cars")
