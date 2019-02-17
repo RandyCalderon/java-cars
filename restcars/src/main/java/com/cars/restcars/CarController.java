@@ -5,6 +5,7 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 
 import org.springframework.web.bind.annotation.*;
 
+import javax.persistence.Entity;
 import java.util.stream.*;
 import java.util.*;
 
@@ -37,14 +38,23 @@ public class CarController {
     @GetMapping("/cars/brand/{brand}")
     public List<Car> findBrand(@PathVariable String brand) {
         CarLog message = new CarLog(" search for " + brand);
+        log.info(" search for {}" + brand);
         rt.convertAndSend(RestcarsApplication.MESSAGE_QUEUE, message.toString());
-        return carrepos.findAll().stream().filter(c -> c.getBrand() == brand).collect(Collectors.toList());
+        return carrepos.findAll().stream().filter(c -> c.getBrand().equalsIgnoreCase(brand)).collect(Collectors.toList());
     }
 
-
-    @PostMapping("/cars")
+    @PostMapping("/cars/upload")
     public List<Car> newCar(@RequestBody List<Car> newCars) {
         log.info("Data loaded");
         return carrepos.saveAll(newCars);
     }
+
+    @DeleteMapping("/cars/delete/{id}")
+    public void deleteById(@PathVariable Long id) {
+        CarLog message = new CarLog("{id} data deleted");
+        log.info(id + " data deleted");
+        rt.convertAndSend(RestcarsApplication.MESSAGE_QUEUE, message.toString());
+        carrepos.deleteById(id);
+    }
+
 }

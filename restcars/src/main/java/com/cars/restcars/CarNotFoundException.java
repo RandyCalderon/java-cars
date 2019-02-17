@@ -3,6 +3,6 @@ package com.cars.restcars;
 public class CarNotFoundException extends RuntimeException{
 
     public CarNotFoundException (Long id) {
-        super("Could not find language");
+        super("Could not find car under id: " + id);
     }
 }
