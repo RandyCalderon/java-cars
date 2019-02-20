@@ -1,0 +1,356 @@
+[
+  {
+    "id": 999,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "Taurus"
+  },
+  {
+    "id": 1000,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "C-MAX Hybrid"
+  },
+  {
+    "id": 1001,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "Edge"
+  },
+  {
+    "id": 1002,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "Escape"
+  },
+  {
+    "id": 1003,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "Explorer"
+  },
+  {
+    "id": 1004,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "Fiesta"
+  },
+  {
+    "id": 1005,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "Flex"
+  },
+  {
+    "id": 1006,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "Focus"
+  },
+  {
+    "id": 1007,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "Focus ST"
+  },
+  {
+    "id": 1008,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "Fusion"
+  },
+  {
+    "id": 1009,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "Mustang"
+  },
+  {
+    "id": 1010,
+    "year": 2013,
+    "brand": "Ford",
+    "model": "Transit Connect"
+  },
+  {
+    "id": 1011,
+    "year": 2013,
+    "brand": "Hyundai",
+    "model": "Veloster"
+  },
+  {
+    "id": 1012,
+    "year": 2013,
+    "brand": "Hyundai",
+    "model": "Accent"
+  },
+  {
+    "id": 1013,
+    "year": 2013,
+    "brand": "Hyundai",
+    "model": "Elantra"
+  },
+  {
+    "id": 1014,
+    "year": 2013,
+    "brand": "Hyundai",
+    "model": "Equus"
+  },
+  {
+    "id": 1015,
+    "year": 2013,
+    "brand": "Hyundai",
+    "model": "Genesis Coupe"
+  },
+  {
+    "id": 1016,
+    "year": 2013,
+    "brand": "Hyundai",
+    "model": "Sonata"
+  },
+  {
+    "id": 1017,
+    "year": 2013,
+    "brand": "Chevrolet",
+    "model": "Cruze"
+  },
+  {
+    "id": 1018,
+    "year": 2013,
+    "brand": "Chevrolet",
+    "model": "Malibu"
+  },
+  {
+    "id": 1019,
+    "year": 2013,
+    "brand": "Chevrolet",
+    "model": "Tahoe"
+  },
+  {
+    "id": 1020,
+    "year": 2013,
+    "brand": "Audi",
+    "model": "S4"
+  },
+  {
+    "id": 1021,
+    "year": 2013,
+    "brand": "BMW",
+    "model": "X5"
+  },
+  {
+    "id": 1022,
+    "year": 2013,
+    "brand": "BMW",
+    "model": "X5 M"
+  },
+  {
+    "id": 1023,
+    "year": 2013,
+    "brand": "BMW",
+    "model": "X6"
+  },
+  {
+    "id": 1024,
+    "year": 2013,
+    "brand": "BMW",
+    "model": "X6 M"
+  },
+  {
+    "id": 1025,
+    "year": 2013,
+    "brand": "GMC",
+    "model": "Sierra 1500"
+  },
+  {
+    "id": 1026,
+    "year": 2013,
+    "brand": "GMC",
+    "model": "Yukon"
+  },
+  {
+    "id": 1027,
+    "year": 2013,
+    "brand": "GMC",
+    "model": "Yukon XL 1500"
+  },
+  {
+    "id": 1028,
+    "year": 2013,
+    "brand": "GMC",
+    "model": "Yukon XL 2500"
+  },
+  {
+    "id": 1029,
+    "year": 2013,
+    "brand": "Infiniti",
+    "model": "JX"
+  },
+  {
+    "id": 1030,
+    "year": 2013,
+    "brand": "Jaguar",
+    "model": "XK Series"
+  },
+  {
+    "id": 1031,
+    "year": 2013,
+    "brand": "Kia",
+    "model": "Rio"
+  },
+  {
+    "id": 1032,
+    "year": 2013,
+    "brand": "Kia",
+    "model": "Sorento"
+  },
+  {
+    "id": 1033,
+    "year": 2013,
+    "brand": "Lexus",
+    "model": "GS"
+  },
+  {
+    "id": 1034,
+    "year": 2013,
+    "brand": "Lexus",
+    "model": "LX"
+  },
+  {
+    "id": 1035,
+    "year": 2013,
+    "brand": "Lexus",
+    "model": "RX"
+  },
+  {
+    "id": 1036,
+    "year": 2013,
+    "brand": "Lincoln",
+    "model": "MKS"
+  },
+  {
+    "id": 1037,
+    "year": 2013,
+    "brand": "Lincoln",
+    "model": "MKT"
+  },
+  {
+    "id": 1038,
+    "year": 2013,
+    "brand": "Lincoln",
+    "model": "MKX"
+  },
+  {
+    "id": 1039,
+    "year": 2013,
+    "brand": "Mazda",
+    "model": "CX-5"
+  },
+  {
+    "id": 1040,
+    "year": 2013,
+    "brand": "Mazda",
+    "model": "MAZDA6"
+  },
+  {
+    "id": 1041,
+    "year": 2013,
+    "brand": "Nissan",
+    "model": "Altima"
+  },
+  {
+    "id": 1042,
+    "year": 2013,
+    "brand": "Nissan",
+    "model": "GT-R"
+  },
+  {
+    "id": 1043,
+    "year": 2013,
+    "brand": "Porsche",
+    "model": "911"
+  },
+  {
+    "id": 1044,
+    "year": 2013,
+    "brand": "Porsche",
+    "model": "Boxster"
+  },
+  {
+    "id": 1045,
+    "year": 2013,
+    "brand": "Porsche",
+    "model": "Cayenne"
+  },
+  {
+    "id": 1046,
+    "year": 2013,
+    "brand": "Porsche",
+    "model": "Panamera"
+  },
+  {
+    "id": 1047,
+    "year": 2013,
+    "brand": "Rolls-Royce",
+    "model": "Phantom"
+  },
+  {
+    "id": 1048,
+    "year": 2013,
+    "brand": "Scion",
+    "model": "FR-S"
+  },
+  {
+    "id": 1049,
+    "year": 2013,
+    "brand": "Scion",
+    "model": "tC"
+  },
+  {
+    "id": 1050,
+    "year": 2013,
+    "brand": "Subaru",
+    "model": "BRZ"
+  },
+  {
+    "id": 1051,
+    "year": 2013,
+    "brand": "Toyota",
+    "model": "Land Cruiser"
+  },
+  {
+    "id": 1052,
+    "year": 2013,
+    "brand": "Toyota",
+    "model": "Venza"
+  },
+  {
+    "id": 1053,
+    "year": 2013,
+    "brand": "Volkswagen",
+    "model": "CC"
+  },
+  {
+    "id": 1054,
+    "year": 2013,
+    "brand": "Volvo",
+    "model": "C30"
+  },
+  {
+    "id": 1055,
+    "year": 2013,
+    "brand": "Volvo",
+    "model": "C70"
+  },
+  {
+    "id": 1056,
+    "year": 2013,
+    "brand": "Volvo",
+    "model": "S60"
+  },
+  {
+    "id": 1057,
+    "year": 2013,
+    "brand": "Volvo",
+    "model": "XC90;"
+  }
+]

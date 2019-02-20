@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "1 Series"
+  },
+  {
+    "id": 2,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "3 Series"
+  },
+  {
+    "id": 3,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "5 Series"
+  },
+  {
+    "id": 4,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "6 Series"
+  },
+  {
+    "id": 5,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "7 Series"
+  },
+  {
+    "id": 6,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "M3"
+  },
+  {
+    "id": 7,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "X6"
+  },
+  {
+    "id": 8,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "M6"
+  },
+  {
+    "id": 9,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "Z4"
+  },
+  {
+    "id": 10,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "X3"
+  },
+  {
+    "id": 11,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "X5"
+  },
+  {
+    "id": 12,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "M5"
+  },
+  {
+    "id": 13,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "X5 M"
+  },
+  {
+    "id": 14,
+    "year": 2010,
+    "brand": "BMW",
+    "model": "X6 M"
+  },
+  {
+    "id": 439,
+    "year": 2011,
+    "brand": "BMW",
+    "model": "1 Series"
+  },
+  {
+    "id": 440,
+    "year": 2011,
+    "brand": "BMW",
+    "model": "3 Series"
+  },
+  {
+    "id": 441,
+    "year": 2011,
+    "brand": "BMW",
+    "model": "5 Series"
+  },
+  {
+    "id": 442,
+    "year": 2011,
+    "brand": "BMW",
+    "model": "7 Series"
+  },
+  {
+    "id": 443,
+    "year": 2011,
+    "brand": "BMW",
+    "model": "X6"
+  },
+  {
+    "id": 444,
+    "year": 2011,
+    "brand": "BMW",
+    "model": "M3"
+  },
+  {
+    "id": 445,
+    "year": 2011,
+    "brand": "BMW",
+    "model": "X3"
+  },
+  {
+    "id": 446,
+    "year": 2011,
+    "brand": "BMW",
+    "model": "X5"
+  },
+  {
+    "id": 447,
+    "year": 2011,
+    "brand": "BMW",
+    "model": "Z4"
+  },
+  {
+    "id": 448,
+    "year": 2011,
+    "brand": "BMW",
+    "model": "X5 M"
+  },
+  {
+    "id": 449,
+    "year": 2011,
+    "brand": "BMW",
+    "model": "X6 M"
+  },
+  {
+    "id": 824,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "1 Series"
+  },
+  {
+    "id": 825,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "3 Series"
+  },
+  {
+    "id": 826,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "5 Series"
+  },
+  {
+    "id": 827,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "6 Series"
+  },
+  {
+    "id": 828,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "7 Series"
+  },
+  {
+    "id": 829,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "M3"
+  },
+  {
+    "id": 830,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "X3"
+  },
+  {
+    "id": 831,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "X5"
+  },
+  {
+    "id": 832,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "X5 M"
+  },
+  {
+    "id": 833,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "X6"
+  },
+  {
+    "id": 834,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "X6 M"
+  },
+  {
+    "id": 835,
+    "year": 2012,
+    "brand": "BMW",
+    "model": "Z4"
+  },
+  {
+    "id": 1021,
+    "year": 2013,
+    "brand": "BMW",
+    "model": "X5"
+  },
+  {
+    "id": 1022,
+    "year": 2013,
+    "brand": "BMW",
+    "model": "X5 M"
+  },
+  {
+    "id": 1023,
+    "year": 2013,
+    "brand": "BMW",
+    "model": "X6"
+  },
+  {
+    "id": 1024,
+    "year": 2013,
+    "brand": "BMW",
+    "model": "X6 M"
+  }
+]
